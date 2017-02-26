@@ -1,0 +1,14 @@
+{
+    "name": "fcc whoami service",
+    "version": "0.0.1",
+    "description": "microservice that give you info basing on your browser headers",
+    "private": true,
+    "author": "dmitry izmerov",
+    "license": "ISC",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "^4.14.1"
+    }
+}
