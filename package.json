@@ -1,17 +1,24 @@
 {
-    "name": "fcc whoami service app",
-    "version": "1.0.0",
-    "description": "microservice that give you info basing on your browser headers",
-    "private": true,
-    "author": "dmitry izmerov",
-    "license": "ISC",
-    "scripts": {
-    },
-    "dependencies": {
-        "express": "^4.14.1"
-    },
-    "engines": {
-        "node": "6.3.1",
-        "npm": "3.10.3"
-    }
+  "name": "whoami",
+  "version": "1.0.0",
+  "description": "whoami microservice",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitry-izmerov/fcc-whoami.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitry-izmerov/fcc-whoami/issues"
+  },
+  "homepage": "https://github.com/dmitry-izmerov/fcc-whoami#readme"
 }
